@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "computationalstatisticsken4258"
+version = "0.1.0"
+description = "See README.md"
+authors = ["Yannick Damoiseaux, Martijn Elands"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.12.1"
+pandas = "^2.2.1"
+matplotlib = "^3.8.3"
+scikit-learn = "^1.4.1.post1"
+numpy = "^1.26.4"
+pyarrow = "^15.0.0"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
